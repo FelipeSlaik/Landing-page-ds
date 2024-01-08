@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style/media.css">
     <title>Dark Souls</title>
 </head>
+
 <body>
     <header>
         <div id="title">
@@ -15,11 +17,21 @@
         </div>
 
         <ul>
-            <a href="#"><li>Itens</li></a>
-            <a href="#"><li>Lore</li></a>
-            <a href="#"><li>Boss</li></a>
-            <a href="#"><li>Build</li></a>
-            <a href="#" id="inscreva-se-btn"><li>Já tem o jogo?</li></a>
+            <a href="#">
+                <li>Itens</li>
+            </a>
+            <a href="#">
+                <li>Lore</li>
+            </a>
+            <a href="#">
+                <li>Boss</li>
+            </a>
+            <a href="#">
+                <li>Build</li>
+            </a>
+            <a href="#" id="inscreva-se-btn">
+                <li>Já tem o jogo?</li>
+            </a>
         </ul>
     </header>
 
@@ -27,17 +39,33 @@
         <aside>
             <h2><span>Enfrente agora</span></h2>
             <h2>a Era da Escuridão</h2>
-            <p>Dark Souls se passa primariamente no reino fictício de Lordran, onde os jogadores assumem o papel de um personagem denominado "Chosen Undead" que, segundo lendas, seria responsável pela quebra de uma maldição que torna incapazes de morrer aqueles que são afligidos por uma misteriosa marca negra. O jogo é inspirado fortemente pela temática medieval, com a presença de deuses e seres fantásticos, inseridos em um mundo decadente e punitivo.</p>
+            <p>Considerado por muitos difícil e, por outros uma aventura alucinante, o jogo de videogame Dark Souls com
+                certeza é um que marca a experiência do jogador. É dito pela internet que o ideal é ter a experiência de
+                lançamento do jogo, para descobrir todos os mistérios que o rondam e assim ter mais diversão com o
+                game.<br>
+                Feito para fazer o jogador pensar muito antes de tomar qualquer decisão, Dark Souls não subestima quem
+                está com o controle na mão. É um jogo bem diferente do que já vimos por aí, que mostra ao jogador o
+                tempo todo o que deve ser feito e como.
+
+            </p>
 
             <form>
                 <input type="text" placeholder="Nome">
-                <input type="email"  placeholder="E-mail">
+                <input type="email" placeholder="E-mail">
                 <input type="submit" value="Enviar >">
             </form>
         </aside>
-        <article>
-            <img src="./components/img/dss.png" alt="Dark Souls">
-        </article>
+        <div class="carrossel">
+            <div class="container" id="img">
+                <img src="/components/img/ds1.jpg" alt="ds1">
+                <img src="/components/img/ds2.png" alt="ds2">
+                <img src="/components/img/ds3.avif" alt="ds3">
+            </div>
+        </div>
+
     </main>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
